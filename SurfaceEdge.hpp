@@ -1,6 +1,14 @@
 #ifndef SURFACEEDGE_HPP
 # define SURFACEEDGE_HPP
 
+# include <vector>
+# include <array>
+# include <gp_Vec.hxx>
+# include <TopoDS_Edge.hxx>
+# include <Geom_Curve.hxx>
+# include <Standard_Handle.hxx>
+# include "SurfacePoint.hpp"
+
 class SurfaceEdge {
 public:
 	// constructor

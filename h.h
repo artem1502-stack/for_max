@@ -23,6 +23,7 @@
 # include "Solver2DPoint.hpp"
 # include "BodySurface.hpp"
 # include "Solver2D.hpp"
+# include "Rtree.hpp"
 
 struct Vertex {
 	double x; 

@@ -1,6 +1,10 @@
 #ifndef SOLVER2DPOINT_HPP
 # define SOLVER2DPOINT_HPP
 
+# include <limits>
+# include <cmath>
+
+
 class Solver2DPoint {
 public:
 	// constructors

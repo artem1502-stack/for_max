@@ -1,6 +1,31 @@
 #ifndef SOLVER2D_HPP
 # define SOLVER2D_HPP
 
+# include <string>
+# include <map>
+# include <Geom_Surface.hxx>
+# include <Geom_Curve.hxx>
+# include <Standard_Handle.hxx>
+# include <BRepTools.hxx>
+# include <BRep_Tool.hxx>
+# include <TopoDS_Vertex.hxx>
+# include <TopAbs_Orientation.hxx>
+# include <IntTools_FClass2d.hxx>
+# include <GeomAdaptor_Curve.hxx>
+# include <Geom2dAdaptor_Curve.hxx>
+# include <GCPnts_AbscissaPoint.hxx>
+# include <Geom2d_Curve.hxx>
+# include <cmath>
+# include "Loader.hpp"	
+# include "BodySurface.hpp"
+# include "SurfaceEdge.hpp"
+# include "SurfacePoint.hpp"
+# include "SurfacePoint.hpp"
+# include "Solver2DPoint.hpp"
+
+# include <iostream>
+using namespace std;
+
 class Solver2D {
 public:
 	// constructor

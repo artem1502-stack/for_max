@@ -1,6 +1,19 @@
 #ifndef BODYSURFACE_HPP
 # define BODYSURFACE_HPP
 
+# include <vector>
+# include <map>
+# include <algorithm>
+# include <BRepTools.hxx>
+# include <BRep_Tool.hxx>
+# include <TopoDS_Face.hxx>
+# include <TopoDS_Wire.hxx>
+# include <TopoDS_Edge.hxx>
+# include <BRepBuilderAPI_MakeEdge.hxx>
+# include "SurfaceWire.h"
+# include "SurfaceEdge.h"
+# include "SurfacePoint.h"
+
 class BodySurface {
 public:
 	// constructor

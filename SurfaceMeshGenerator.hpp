@@ -1,6 +1,29 @@
 #ifndef SURFACEMESHGENERATOR_HPP
 # define SURFACEMESHGENERATOR_HPP
 
+# include <Geom_Surface.hxx>
+# include <Geom_Curve.hxx>
+# include <gp_Ax1.hxx>
+# include <Standard_Handle.hxx>
+# include <BRepTools.hxx>
+# include <BRep_Tool.hxx>
+# include <GeomAPI_ProjectPointOnSurf.hxx>
+# include <cmath>
+# include <queue>
+# include <string>
+# include "Loader.hpp"	
+# include "BodySurface.hpp"
+# include "SurfaceEdge.hpp"
+# include "SurfacePoint.hpp"
+# include "SurfacePoint.hpp"
+# include "Solver2DPoint.hpp"
+# include "Solver2D.hpp"
+# include "Rtree.hpp"
+
+# include <BRepBuilderAPI_MakeVertex.hxx>
+# include <BRepExtrema_DistShapeShape.hxx>
+# include <BRepClass_FaceClassifier.hxx>
+
 class SurfaceMeshGenerator {
 public:
 	// constructor that gets loader pointer

@@ -1,6 +1,8 @@
 #ifndef DELAUNAYTRIANGULATON_HPP
 # define DELAUNAYTRIANGULATON_HPP
 
+# include "h.h"
+
 class DelaunayTriangulation {
 private:
 	int id;

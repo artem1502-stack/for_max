@@ -1,6 +1,11 @@
 #ifndef SURFACEPOINT_HPP
 # define SURFACEPOINT_HPP
 
+# include <BRep_Tool.hxx>
+# include <gp_Pnt.hxx>
+# include <TopoDS_Vertex.hxx>
+# include <Bnd_Box2d.hxx>
+
 class SurfacePoint {
 public:
 	// constructor

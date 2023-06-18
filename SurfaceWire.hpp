@@ -1,6 +1,11 @@
 #ifndef SURFACEWIRE_HPP
 # define SURFACEWIRE_HPP
 
+# include <vector>
+# include <TopoDS_Wire.hxx>
+# include "SurfaceEdge.hpp"
+# include "SurfacePoint.hpp"
+
 class SurfaceWire {
 public:
 	// constructor
